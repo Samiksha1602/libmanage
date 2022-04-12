@@ -29,5 +29,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samiksha1602/libmanage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Samiksha1602/libmanage/issues"
+  },
+  "homepage": "https://github.com/Samiksha1602/libmanage#readme"
 }
