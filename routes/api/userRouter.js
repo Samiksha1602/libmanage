@@ -62,6 +62,7 @@ function(req,res,next){
 
 
 router.post('/signup',cors.corsWithOptions, (req, res, next) => {
+  console.log(req.body.firstname);
   User.register(new User({username: req.body.username,
     firstname : req.body.firstname,
     lastname : req.body.lastname,
